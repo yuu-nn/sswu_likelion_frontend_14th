@@ -21,19 +21,19 @@ main{
 .left{
     width:415px;
     height:880px;
-    background-image : url("layout2_1.png");
+    background-image : url("img/layout2_1.png");
     background-size:cover;
 }
 .middle{
     width:415px;
     height:880px;
-    background-image : url("layout2_2.png");
+    background-image : url("img/layout2_2.png");
     background-size:cover;
 }
 .right{
     width:415px;
     height:880px;
-    background-image : url("layout2_3.png");
+    background-image : url("img/layout2_3.png");
     background-size:cover;
 }
 footer{

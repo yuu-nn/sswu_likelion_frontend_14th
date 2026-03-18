@@ -10,7 +10,7 @@ header{
 .main_top{
     width:1250px;
     height:450px;
-    background-image : url("layout1.png");
+    background-image : url("img/layout1.png");
     background-size:cover;
 }
 .main_bot{

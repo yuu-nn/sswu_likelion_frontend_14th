@@ -29,7 +29,7 @@ main{
 .left1_top{
     width:700px;
     height:190px;
-    background-image : url("layout3_1.png");
+    background-image : url("img/layout3_1.png");
     background-size:cover;
 
     position:absolute;
@@ -39,7 +39,7 @@ main{
 .left1_bot{
     width:700px;
     height:190px;
-    background-image : url("layout3_2.png");
+    background-image : url("img/layout3_2.png");
     background-size:cover;
 
     position:absolute;
@@ -49,7 +49,7 @@ main{
 .right1{
     width:400px;
     height:400px;
-    background-image : url("layout3_3.png");
+    background-image : url("img/layout3_3.png");
     background-size:cover;
 
     position:absolute;

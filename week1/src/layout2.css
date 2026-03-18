@@ -1,0 +1,56 @@
+.wrap{
+    width:1980px;
+    height:1080px;
+}
+header{
+    display:flex;
+}
+.logo{
+    width:250px;
+    height:100px;
+    background:#54D8DC;
+}
+.nav{
+    width:1000px;
+    height:100px;
+    background:#86DADC;
+}
+main{
+    display:flex;
+}
+.left{
+    width:415px;
+    height:880px;
+    background-image : url("layout2_1.png");
+    background-size:cover;
+}
+.middle{
+    width:415px;
+    height:880px;
+    background-image : url("layout2_2.png");
+    background-size:cover;
+}
+.right{
+    width:415px;
+    height:880px;
+    background-image : url("layout2_3.png");
+    background-size:cover;
+}
+footer{
+    display:flex;
+}
+.footer_left{
+    width:250px;
+    height:100px;
+    background:#FDE1E0;
+}
+.footer_top{
+    width:1000px;
+    height:50px;
+    background:#FECECE;
+}
+.footer_bot{
+    width:1000px;
+    height:50px;
+    background:#FDB2B5;
+}

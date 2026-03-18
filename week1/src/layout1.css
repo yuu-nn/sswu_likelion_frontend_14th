@@ -1,0 +1,38 @@
+.wrap{
+    width:1980px;
+    height:1080px;
+}
+header{
+    width:1250px;
+    height:100px;
+    background:#DE7D86;
+}
+.main_top{
+    width:1250px;
+    height:450px;
+    background-image : url("layout1.png");
+    background-size:cover;
+}
+.main_bot{
+    display:flex;
+}
+.left{
+    width:416px;
+    height:430px;
+    background:#FFC5C5;
+}
+.middle{
+    width:416px;
+    height:430px;
+    background:#FFA3A3;
+}
+.right{
+    width:416px;
+    height:430px;
+    background:#54D8DC;
+}
+footer{
+    width:1250px;
+    height:100px;
+    background:#6E6875;
+}

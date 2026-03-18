@@ -1,0 +1,129 @@
+.warp{
+    width:1950px;
+    height:1080px;
+}
+header{
+    display:flex;
+}
+.logo{
+    width:200px;
+    height:100px;
+    background:#CCCCCC;
+}
+.nav{
+    width:1050px;
+    height:100px;
+    background:#3B5A42;
+}
+main{
+    width:1250px;
+    height:880px;
+    background:#DCD7CB;
+    display:flex;
+
+    position:relative;
+}
+.main_top{
+    display:flex;
+}
+.left1_top{
+    width:700px;
+    height:190px;
+    background-image : url("layout3_1.png");
+    background-size:cover;
+
+    position:absolute;
+    top:50px;
+    left:50px;
+}
+.left1_bot{
+    width:700px;
+    height:190px;
+    background-image : url("layout3_2.png");
+    background-size:cover;
+
+    position:absolute;
+    top:260px;
+    left:50px;
+}
+.right1{
+    width:400px;
+    height:400px;
+    background-image : url("layout3_3.png");
+    background-size:cover;
+
+    position:absolute;
+    top:50px;
+    right:50px;
+}
+.main_bot{
+    display:flex;
+}
+.left2_top{
+    display:flex;
+}
+.left2_1{
+    width:150px;
+    height:150px;
+    background:#A1B189;
+    position:absolute;
+    top:505px;
+    left:50px;
+}
+.left2_2{
+    width:150px;
+    height:150px;
+    background:#A1B189;
+    position:absolute;
+    top:505px;
+    left:223px;
+}
+.left2_3{
+    width:150px;
+    height:150px;
+    background:#A1B189;
+    position:absolute;
+    top:505px;
+    left:396px;
+}
+.left2_bot{
+    display:flex;
+}
+.left2_4{
+    width:150px;
+    height:150px;
+    background:#A1B189;
+    position:absolute;
+    top:675px;
+    left:50px;
+}
+.left2_5{
+    width:150px;
+    height:150px;
+    background:#A1B189;
+    position:absolute;
+    top:675px;
+    left:223px;
+}
+.left2_6{
+    width:150px;
+    height:150px;
+    background:#A1B189;
+    position:absolute;
+    top:675px;
+    left:396px;
+}
+.right2{
+    width:615px;
+    height:320px;
+    background:#588158;
+    position:absolute;
+    top:505px;
+    left:585px;
+
+}
+footer{
+    width:1250px;
+    height:100px;
+    background:#334E41;
+}

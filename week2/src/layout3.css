@@ -1,0 +1,155 @@
+.wrap{
+    width: 1980px;
+    height: 1080px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    background: #EEEEE9;
+}
+.nav{
+    width: 1000px;
+    height: 100px;
+    background: #D6CCC2;
+}
+main{
+    width: 1250px;
+    height: 880px;
+
+    position: relative;
+}
+.top{
+    width: 1250px;
+    height: 440px;
+    background: #F5ECE1;
+}
+.bot{
+    display: flex;
+}
+.left{
+    width: 625px;
+    height: 440px;
+    background: #E4D6CA;
+}
+.right{
+    width: 625px;
+    height: 440px;
+    background: #D5BEB1;
+}
+.mid{
+    width: 500px;
+    height: 500px;
+    background-color: #866756;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+footer{
+    width: 1250px;
+    height: 100px;
+    background-color: #D6CCC2;
+}
+@media (max-width: 768px) {
+    .wrap{
+        width: 680px;
+        height: 1080px;
+        margin:0 auto;
+    }
+    .logo{
+        display: none;
+    }
+    .nav{
+        width: 680px;
+        height: 100px;
+    }
+    main{
+        position: relative;
+    }
+    .top{
+        width: 680px;
+        height: 294px;
+    }
+    .bot{
+        flex-direction: column;
+        
+    }
+    .left{
+        width: 680px;
+        height: 294px;
+    }
+    .right{
+        width: 680px;
+        height: 294px;
+    }
+    .mid{
+        width: 235px;
+        height: 235px;
+
+        top: auto; 
+        transform: none;
+
+        position:absolute;
+        bottom:0;
+        left: 0;
+    }
+    footer{
+        width: 680px;
+        height: 100px;
+    }
+}
+    
+@media (max-width: 480px) {
+    .wrap{
+        width: 450px;
+        height: 1080px;
+        margin: 0 auto;
+    }
+    .nav{
+        width: 100%;
+        height: 100px;
+    }
+    main{
+        width: 450px;
+        position: relative;
+    }
+    .top{
+        width: 450px;
+        height: 294px;
+    }
+    .bot{
+        flex-direction: column;
+        
+    }
+    .left{
+        width: 450px;
+        height: 294px;
+    }
+    .right{
+        width: 450px;
+        height: 294px;
+    }
+    .mid{
+        width: 200px;
+        height: 200px;
+
+             
+        bottom: auto;
+        left:auto;
+
+        position:absolute;
+        top:0;
+        right:0;
+    }
+    footer{
+        width: 450px;
+        height: 100px;
+    }
+    
+}

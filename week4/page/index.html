@@ -11,41 +11,35 @@
         <header>
             <h1 class="logo">NexusFlow</h1>
             <ul class="menu">
-                <li>
-                    <a href="#">About Us</a>
-                    <ul class="submenu">
-                        <li><a href="#">Vision</a></li>
-                        <li><a href="#">History</a></li>
-                        <li><a href="#">Contact Us</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#">Solutions</a>
-                    <ul class="submenu">
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Products</a></li>
-                        <li><a href="#">Business</a></li>
-                    </ul>
-                </li>
+                <ul class="menu">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Solutions</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
 
-                <li>
-                    <a href="#">News</a>
-                    <ul class="submenu">
-                        <li><a href="#">Release</a></li>
-                        <li><a href="#">Notice</a></li>
-                        <li><a href="#">Media</a></li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="#">Careers</a>
-                    <ul class="submenu">
-                        <li><a href="#">Case Value</a></li>
-                        <li><a href="#">Join Us</a></li>
-                        <li><a href="#">Life at</a></li>
-                    </ul>
-                </li>
-            </ul>
+                <div class="submenu">
+                    <div>
+                        <p>Vision</p>
+                        <p>History</p>
+                        <p>Contact Us</p>
+                    </div>
+                    <div>
+                        <p>Services</p>
+                        <p>Products</p>
+                        <p>Business</p>
+                    </div>
+                    <div>
+                        <p>Release</p>
+                        <p>Notice</p>
+                        <p>Media</p>
+                    </div>
+                    <div>
+                        <p>Core Value</p>
+                        <p>Join Us</p>
+                        <p>Life at</p>
+                    </div>
+                </div>
         </header>
 
         <div class="main">
@@ -165,5 +159,36 @@ Through this collaboration, NexusFlow will integrate its proprietary AI-driven w
         </div>
     </div>
 
+    <script>
+        const menu = document.querySelector('.menu');
+        const submenu = document.querySelector('.submenu');
+
+        menu.addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+
+        submenu.style.display = 'flex';
+        });
+
+        document.addEventListener('click', () => {
+        submenu.style.display = 'none';
+        });
+
+
+        const images = [
+            '../src/img/img1.png',
+            '../src/img/img2.png'
+        ];
+
+        let current = 0;
+        const topImage = document.querySelector('.top-image');
+
+        setInterval(() => {
+            current = (current + 1) % images.length;
+            topImage.style.backgroundImage = `url(${images[current]})`;
+        }, 3000);
+    </script>
+
 </body>
 </html>
+

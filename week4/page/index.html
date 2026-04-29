@@ -44,7 +44,8 @@
 
         <div class="main">
             <div class="top">
-                <div class="top-image"></div>
+                <div class="slide slide1"></div>
+                <div class="slide slide2"></div>
                 <div class="top-text">
                     <p class="top-text1">Leading the Future with Innovation</p>
                     <h2 class="top-text2">Beyond the Best, Towards the Next</h2>
@@ -64,7 +65,7 @@
                                     <span class="notice-date">2026.02.14</span>
                                 </li>
 
-                                <li>
+                                <li class="notice-click">
                                     <span class="notice-title">[Launch] Introducing NexusFlow Enterprise: Built for Scale</span>
                                     <span class="notice-date">2026.02.03</span>
                                 </li>
@@ -91,10 +92,10 @@
                             </ul>
                         </div>
                         <div class="press-content">
-                            <h3>NexusFlow Announces Strategic Partnership with Global Tech Leaders to Define the Future of Work </h3>
-                            <p>NexusFlow, a leading innovator in digital workflow solutions, today announced a landmark strategic partnership with global technology leaders to accelerate the digital transformation of enterprises worldwide.
+                            <h3>NexusFlow Announces Strategic Partnership<br> with Global Tech Leaders to Define the Future of Work </h3>
+                            <p>NexusFlow, a leading innovator in digital workflow solutions, today announced a landmark strategic partnership with<br> global technology leaders to accelerate the digital transformation of enterprises worldwide.
 
-Through this collaboration, NexusFlow will integrate its proprietary AI-driven workflow optimization engine with global cloud infrastructures, providing a seamless and more intuitive work experience for over 10 million professional users. This partnership focuses on breaking down data silos and creating a "Unified Flow" that allows teams to focus on high-value creative tasks rather than repetitive administrative work.
+Through this collaboration, NexusFlow will integrate its proprietary AI-driven workflow optimization engine with<br> global cloud infrastructures, providing a seamless and more intuitive work experience for over 10 million professional<br>users. This partnership focuses on breaking down data silos and creating a "Unified Flow" that allows teams to focus<br>on high-value creative tasks rather than repetitive administrative work.
 
 "This is not just a technical integration; it’s a commitment to redefining how humans and technology interact in the workspace," said the CEO of NexusFlow. "Beyond the Best, Towards the Next — we are moving forward to set the new global standard for productivity."</p>
                         </div>
@@ -175,18 +176,82 @@ Through this collaboration, NexusFlow will integrate its proprietary AI-driven w
         });
 
 
-        const images = [
-            '../src/img/img1.png',
-            '../src/img/img2.png'
+        const slides = [
+            document.querySelector('.slide1'),
+            document.querySelector('.slide2')
         ];
 
         let current = 0;
-        const topImage = document.querySelector('.top-image');
+        let next = 1;
 
         setInterval(() => {
-            current = (current + 1) % images.length;
-            topImage.style.backgroundImage = `url(${images[current]})`;
+            slides[next].style.transition = 'none';
+            slides[next].style.transform = 'translateY(100%)';
+
+
+        setTimeout(() => {
+                slides[current].style.transition = 'transform 1s ease';
+                slides[next].style.transition = 'transform 1s ease';
+
+
+                slides[current].style.transform = 'translateY(-100%)';
+
+                slides[next].style.transform = 'translateY(0)';
+
+                current = next;
+                next = (next + 1) % slides.length;
+
+            }, 50);
+
         }, 3000);
+
+
+        const tabs = document.querySelectorAll('.tab-btn');
+        const notice = document.querySelector('.notice-list');
+        const press = document.querySelector('.press-content');
+
+        tabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                tabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+
+                if (tab.textContent.trim() === 'Notice') {
+                notice.style.display = 'block';
+                press.style.display = 'none';
+                }
+
+                if (tab.textContent.trim() === 'Press Release') {
+                notice.style.display = 'none';
+                press.style.display = 'block';
+                }
+            });
+        });
+
+
+        const popup = document.querySelector('.popup');
+        const openNotice = document.querySelectorAll('.notice-list li')[1];
+        const closeBtn = document.querySelector('.popup-btn');
+
+        if (openNotice && popup) {
+            openNotice.addEventListener('click', () => {
+                popup.style.display = 'flex';
+            });
+        }
+
+        if (closeBtn && popup) {
+            closeBtn.addEventListener('click', () => {
+                popup.style.display = 'none';
+            });
+        }
+
+        if (popup) {
+            popup.addEventListener('click', (e) => {
+                if (e.target === popup) {
+                popup.style.display = 'none';
+                }
+            });
+        }
+
     </script>
 
 </body>

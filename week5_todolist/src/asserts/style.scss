@@ -1,0 +1,73 @@
+body{
+    background: #92CAFF;
+    height: 100vh;
+    overflow: hidden;
+}
+.app{
+    margin-top: 108px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 40px;
+    color:white;
+    font-style: bold;
+    justify-content: center;
+    
+}
+.input-box{
+    height: 70px;
+    width: 600px;
+    background-color: #fff;
+
+    display: flex;
+}
+.input-box input{
+    border: none;
+    outline: none;
+    padding-left: 45px;
+    width: 80%;
+
+
+    font-size: 18px;
+    color: #A3A3A3;
+}
+button {
+  border: none;
+  background: none;
+}
+.todo-container{
+    width: 600px;
+    background-color: #fff;
+
+    margin-top:40px;
+    display: flex;
+}
+
+
+.todo-left{
+    display: flex;
+    gap: 12px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 54px 45px;
+    width: 100%;
+
+    box-sizing: border-box;
+}
+
+li{
+    display: flex;
+    align-items: center;
+
+    border-bottom: 1px solid #92caff;
+    padding: 15px 0;
+}
+
+li button {
+    margin-left: auto;
+}

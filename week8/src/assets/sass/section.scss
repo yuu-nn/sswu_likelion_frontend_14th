@@ -1,0 +1,53 @@
+.section1{
+    padding-top:50px;
+
+    h3{
+        font-size: 45px;
+        text-align: center;
+        margin-bottom: 7px;
+    }
+    .hashtag{
+        display: flex;
+        font-size: 22px;
+        gap:30px;
+        justify-content: center;
+        color:#898989;
+
+        padding-bottom: 50px;
+
+        p.active {
+        font-weight: 700px; 
+        color: #000000;   
+        text-decoration: underline;
+        }
+    }
+
+    .sec2_list{
+        display: flex;
+        gap:10px;
+        justify-content: center;
+
+        img{
+            width: 345px;
+            height: 460px;
+        }
+    }
+    .gray{
+        font-size: 16px;
+        color: #979797;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    .bold{
+        font-size: 20px;
+        font-weight: 700;
+        color: #000000;
+        margin-top: 1px;
+        margin-bottom: 5px;
+        
+    }
+    .money{
+        font-size: 16px;
+        margin-top: 1px;
+    }
+}

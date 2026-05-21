@@ -1,0 +1,28 @@
+.section3{
+    padding-top:150px;
+    padding-bottom: 50px;
+    position: relative;
+
+    max-width: 1500px; 
+    
+    margin: 0 auto;
+
+    h2{
+        font-size: 45px;
+        margin-bottom: 7px;
+
+        position: absolute;
+        top: 40px;     
+        right: -120px;
+
+    
+    }
+    .top, .bot {
+        justify-content: center;
+        display: flex;       
+        gap: 20px;    
+        padding-bottom: 20px;    
+
+    }
+
+}

@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+}
+.start_img{
+    width: 300px;
+    height: 273.23px;
+    
+    position: absolute;
+    top: 80px;
+    left: 32px;
+}
+.start_text{
+    padding-top: 300px;
+    padding-bottom: 20px;
+}
+.start_text > h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+    line-height: 1.3;
+
+    padding-top: 320px;
+    padding-left: 30px;
+}
+.start_text2{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.start_text2 > p{
+    text-align: center;
+    color:#4F4F4F;
+}
+.start_btn{
+    margin-top: 100px;
+    background-color: var(--main);
+    width: 354px;
+    height: 60px;
+
+    border-radius: 20px;
+    line-height: 1.3;
+}
+.start_creat_btn{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.start_login > p{
+    color:var(--main);
+    text-align: center;
+    margin-top: 20px;
+}

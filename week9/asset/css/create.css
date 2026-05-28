@@ -1,0 +1,67 @@
+.container{
+    position: relative;
+}
+
+.back_btn{
+    position: absolute;
+    top:68px;
+    left: 29px;
+
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.account_text1{
+    margin-top: -210px;
+    font-weight: bold;  
+}
+.account_text1 > h1{
+    font-size: 32px;
+    margin-left: 30px;
+}
+.account_text2{
+    margin-top:25px;
+    margin-bottom: 85px;
+}
+.account_text2 > p{
+    font-size: 15px;
+    text-align: center;
+}
+.input_box {
+    border-radius: 20px;
+    border: 1px solid #828282 !important;
+
+    width: 343px;
+    height: 60px;
+
+    margin: 10px 0;
+
+    padding-left: 25px;
+    font-size: 15px;
+    
+}
+.create_button{
+    border-radius: 20px;
+    background-color: var(--main);
+
+    width: 343px;
+    height: 60px;
+
+    font-size: 15px;
+    text-align: center;
+    line-height: 60px;
+
+    color: white;
+
+    margin-top: 10px;
+}
+.already{
+    
+    font-size: 15px;
+
+    margin-top: 30px;
+}
+.already > p {
+    color: var(--main);
+    text-align: center;
+}

@@ -1,0 +1,149 @@
+.product_wrap{
+    width: 414px;
+    height: 100%;
+
+    background-color: #EAECF5;
+
+    position:relative;
+}
+.back{
+    width: 90%;
+    height: 30px;
+    background-color: rgba(255,255,255,0.6);
+    
+    position: absolute;
+    top:45px;
+    left:20px;
+    
+    border-radius: 30px 30px 0 0;
+}
+.main{
+    width: 414px;
+    height: 868px;
+    background-color: #fff;
+
+    margin-top: 64px;
+
+    border-radius: 30px 30px 0 0;
+
+    box-shadow: 0 -10px 20px rgba(0,0,0,0.06);
+    
+}
+
+.top, .total, .current, .history {
+    padding: 0 30px;
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    margin-bottom: 25px;
+    
+}
+.top h3 {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    
+    width: 200px;
+}
+.top .creat_btn {
+    justify-content: right;
+}
+.top .close_img {
+    width: 32px;
+    height: 32px;
+}
+
+
+.total {
+    margin-bottom: 30px;
+}
+.total p {
+    font-size: 14px;
+    margin: -25px 0 8px 0;
+}
+.total .num {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.total .num h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 40px;
+    letter-spacing: -0.5px;
+}
+.total .num .up_img {
+    height: 24px;
+    object-fit: contain;
+}
+.up_img{
+    margin-left: 180px;
+    margin-top:10px
+}
+
+.current {
+    margin-bottom: 35px;
+}
+.current h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+.gold_img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.current h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #FE555D;
+    text-align: center;
+    margin: 0;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.history1, .history2, .history3, .history4 {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #B3B3B3;
+    padding-bottom: 15px;
+}
+.history4 {
+    border-bottom: none; 
+}
+
+
+.history h5 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 6px 0;
+}
+
+
+.history2 h5, .history4 h5 {
+    color: #00B907;
+}
+
+
+.his_bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-size: 14px;
+    color: #B3B3B3;
+    margin: 0;
+}

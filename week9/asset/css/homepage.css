@@ -1,0 +1,166 @@
+.container{
+    position: relative;
+    overflow: hidden;
+}
+.homepage_wrap{
+    width: 100%;
+    height: 100%;
+    background-color: #F6F6F9 !important;
+}
+header{
+    display: flex;
+}
+.menu_img{
+    width: 24px;
+    height: 24px;
+
+    position:absolute;
+    top: 61px;
+    left: 31px;
+}
+.alarm_img{
+    width: 24px;
+    height: 24px;
+
+    position:absolute;
+    top: 61px;
+    right: 30px;
+}
+.welcome h1{
+    font-size: 34px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 100px;
+    left: 31px;
+}
+.total_img{
+    width: 354px;
+    height: 146px;
+
+    position: absolute;
+    top: 178px;
+    left: 30px;
+
+    
+}
+.invest{
+    position: absolute;
+    top: 260px;
+    left: 270px;
+}
+.invest p{
+    color: var(--main);
+}
+.bestplans{
+    position:absolute;
+    top: 347px;
+    left: 29px;
+}
+.best_top{
+    display: flex;
+}
+.best_top h3{
+    font-size: 22px ;
+    font-weight: bold;
+}
+.best_top p{
+    padding-left:150px;
+    padding-top: 7px;
+
+    color: #FE555D;
+
+    font-size: 18px;
+}
+.best_bot{
+    display: flex;
+}
+.gold_img,
+.sliver_img{
+    width: 134px;
+    height: 170px;
+
+    margin-top: 20px;
+    margin-right:25px;
+}
+.platin_img{
+    height: 170px;
+    width: 67px;
+
+    margin-top: 20px;
+}
+.guide{
+    position: absolute;
+    top: 616px;
+    left: 21px;
+}
+.guide h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+.guide1,
+.guide2 {
+    display: flex;
+    height: 92px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+p{
+    font-size:14px;
+    text-align: left;
+    color:#474747;
+}
+
+.Guide1_img,
+.Guide2_img {
+    width: 61px;
+    height: 61px;
+
+    position: absolute;
+    left: 290px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+    height: 75px;
+
+}
+
+.home,
+.product,
+.transaction,
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home p,
+.product p,
+.transaction p,
+.account p{
+    margin-top: 6px;
+    font-size: 14px;
+}
+
+.home img,
+.product img,
+.transaction img,
+.account img{
+    width: 24px;
+    height: 24px;
+}
+
+
+

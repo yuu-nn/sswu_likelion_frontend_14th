@@ -1,0 +1,77 @@
+.account_wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    background-color: #F6F6F9;
+}
+
+
+.account_profile{
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.account_main{
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 26px;
+}
+
+.man_img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 18px;
+}
+
+.account_main h5:first-of-type{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #111;
+}
+
+.account_main h5:last-of-type{
+    font-size: 18px;
+    font-weight: 400;
+    color: #555;
+}
+
+.infobtn,
+.info_btn{
+    display: block;
+    text-decoration: none;
+}
+
+.account_box{
+    width: 354px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+
+    padding: 0 18px;
+    margin-bottom: 14px;
+    margin-left: 30px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.account_box img{
+    width: 18px;
+    height: 18px;
+}
+
+.account_box h3:first-of-type{
+    margin-left: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    flex: 1;
+}
+
+.account_box h3:last-of-type{
+    font-size: 30px;
+    font-weight: 300;
+}
+

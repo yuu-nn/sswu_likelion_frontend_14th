@@ -1,0 +1,396 @@
+.home_nav{
+    background: #E7EAEF;
+}
+.home_page {
+    background-color: #FCFCFC;
+
+    width: 375px;
+    margin: 0 auto;
+    
+}
+.wrap{
+    width: 375px;
+    margin: auto;
+    overflow: hidden;
+    
+
+    .homesec1_wrap{
+        position: relative;
+
+        .homesec1_word {
+            color: #333333;
+            opacity: 0.7;
+            font-size: 23px;
+        
+
+            .Luxury{
+                position: absolute;
+                top: 200px;   
+                left: 42px;  
+                font-weight: 400;
+            }
+            .Fashion{
+                position: absolute;
+                top: 240px;   
+                left: 60px; 
+                font-weight: 400;
+            }
+            .ACCESSOR{
+                position: absolute;
+                top: 280px;   
+                left: 36px; 
+                font-weight: 400;
+            }
+            .IES{
+                position: absolute;
+                top: 320px;   
+                left: 60px; 
+                font-weight: 400;
+            }
+            
+        }
+
+        .homesec1_btn {
+            width: 253px;
+            height: 40px;
+
+            position: absolute;
+            bottom: 40px;
+            left: 50%;
+            transform: translateX(-50%);
+
+            color:white;
+
+            background: rgba(0, 0, 0, 0.4);
+
+            border-radius: 50px 50px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3{
+                font-weight: 400;
+                font-size: 17px;
+            }
+        }
+    }
+
+}
+.homesec2_wrap{
+    h3{
+        display: flex;
+        justify-content: center;
+
+        position: relative;
+        top:30px;
+
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 4px;
+    }
+    .bar{
+        width: 124px;
+        height: 9px;
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .homesec2_menu{
+        display: flex;
+        justify-content:space-between;
+
+        padding: 0 40px;
+
+        h4{
+            position: relative;
+
+            font-weight: 400;
+            color:#888888;
+        }
+
+        .active{
+            color:#000;
+            top:-3px;
+        }
+
+        .active::after{
+
+            content: "◆";
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+
+            top: 25px;
+
+            color: #DD8560;
+            font-size: 7px;
+        } 
+    }
+    .homesec2_top, 
+    .homesec2_bot{
+        display: flex;
+        justify-content:center;
+
+        gap: 10px;
+
+        p{
+            font-size: 13px;
+
+            display: flex;
+            justify-content:center;
+
+            line-height: 7px;
+        }
+        .price{
+           color:#DD8560; 
+           font-size: 15px;
+        }
+    }
+    
+    .explore_more{
+        display: flex;
+        justify-content:center;
+
+        text-decoration: none;
+        color:#000;
+
+        margin-top: 27px;
+    }
+}
+.homesec3_top{
+    margin-top: 40px;
+
+    display: flex;
+    justify-content:center;
+}
+.homesec3_bot{
+    display: flex;
+    justify-content:center;
+
+    margin-top: 25px;
+}
+.homesec3_logo1,
+.homesec3_logo2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    width: 370px;
+    margin: 20px auto;
+
+    justify-items: center; 
+    align-items: center;
+
+    .prada{
+        width: 69px;
+        height: 10px;
+    }
+    .burberry{
+        width: 98px;
+        height: 7px;
+
+    }
+    .boss{
+        width: 52px;
+        height: 19px;
+
+    }
+    .catier{
+        width: 72px;
+        height: 20px;
+    }
+    .gucci{
+        width: 94px;
+        height: 14px;
+
+    }
+    .tiffany{
+        width: 98px;
+        height: 12px;
+
+    }
+}
+.homesec4_wrap{
+    h3{
+        margin-top: 40px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .sec3_img2{
+        display: flex;
+        justify-content:center;
+
+        margin: 40px auto;
+    }
+}
+.homesec5_wrap{
+    h3{
+        margin-top: 70px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    .bar{
+        display:block;
+        margin: 0 auto;
+    } 
+    .homesec5_main{
+        display: flex;
+    }  
+    .sec5_img1,
+    .sec5_img2{
+        height: 311px;
+    }
+    .homesec5_img1,
+    .homesec5_img2{
+
+        margin-top:20px;
+
+        p{
+            font-size: 13px;
+
+            display: flex;
+            justify-content:center;
+
+            line-height: 7px;
+        }
+        .price{
+           color:#DD8560; 
+           font-size: 15px;
+        }
+    }
+    .homesec5_img1{
+        margin-left:20px;
+    }
+    .homesec5_img2{
+        margin-left:15px;
+        p{
+            margin-left:40px;
+        }
+    }
+    .slider_dot{
+        margin-top: 10px;
+
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+
+        font-size: 8px;
+    }
+
+    .active{
+        color: #888888;
+    }
+
+    .sec5_trending{
+        text-align: center;
+        padding-bottom: 20px;
+        h2{
+            margin-top: 60px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-weight: 400;
+            font-size: 25px;
+            letter-spacing: 4px;
+        }
+        .trending_top,
+        .trending_bot{
+            display: flex;
+            justify-content: left;
+            margin-left: 10px;
+            gap: 10px;
+
+            margin-top: 15px;
+            span{
+                background-color: #F9F9F9;
+                padding: 8px 16px;
+
+                border-radius: 999px;
+
+                font-size: 13px;
+                
+            }
+        }
+    }
+}
+.homesec6_wrap{
+    padding-top: 40px;
+    background-color: #F2F2F2;
+
+    .homesec6_logo{
+        display: block;
+        margin: 0 auto;
+
+        width: 97px;
+        height: 40px;
+    }
+    p{
+        text-align: center;
+        font-size: #555555;
+    }
+    .bar{
+        display: block;
+        margin: 0 auto;
+    }
+    .homesec6_top,
+    .homesec6_bot{
+        display: flex;
+        justify-content: space-around;
+
+        img{
+            display: block;
+            margin: 0 auto 15px;
+        }
+        p{
+            font-size: 13px;
+        }
+    }
+    .homesec6_top{
+        margin-top: 20px;
+    }
+    .sec6_img5{
+        display: block;
+        margin: 20px auto;
+        padding-bottom: 30px;
+
+    }
+}
+.homesec7_wrap{
+    padding-bottom: 30px;
+
+    h3{
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: 4px;
+
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .insta{
+        display: block;
+        margin: 0 auto;
+    }
+    .homesec7_top,
+    .homesec7_bot{
+        display: flex;
+        justify-content: space-around;
+
+        margin: 10px;
+    }
+}

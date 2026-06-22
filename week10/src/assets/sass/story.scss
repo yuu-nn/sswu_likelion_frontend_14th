@@ -1,0 +1,55 @@
+.story_wrap{
+    margin-left: 10px;
+    img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+    .story_img{
+        width: 383px;
+        height: 238px;
+
+        margin-bottom: 50px;
+    }
+    .Receive{
+        text-align: center;
+        color:#888888;
+
+        font-size: 14px;
+
+        margin-bottom: 30px;
+    }
+    .email{
+        color:#888888;
+        font-size: 15px;
+    }
+    hr{
+        border-color: #D4D4D4;
+        width: 341px;
+        margin-left: 0;
+
+        margin-bottom: 80px;
+    }
+    .story_bar {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 100%;
+        max-width: 390px;
+        height: 56px;
+
+        background: #000;
+        color: #FCFCFC;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0;
+        
+        font-weight: 400;
+    }
+
+}

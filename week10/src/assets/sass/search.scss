@@ -1,0 +1,43 @@
+.search_wrap{
+    height: 640px;
+
+    padding-left: 15px;
+    img{
+        width: 24px;
+        height: 24px;
+
+        padding-top: 20px;
+        padding-left: 1px;
+    }
+    .search_top{
+        display: flex;
+
+        padding-top: 5px;
+        span{
+            margin-top: 21px;
+            margin-left: 15px;
+
+            font-size: 14px;
+
+            color: #555555;
+        }
+        a{
+            margin-top: 15px;
+            margin-left: 170px;
+
+            text-decoration: none;
+            font-size: 20px;
+
+            color: #555555;
+        }
+    }
+    hr{
+        width: 313px;
+        float: left;
+
+        border-color: #555555;
+    }
+    .popular{
+        color:#888888;
+    }
+}

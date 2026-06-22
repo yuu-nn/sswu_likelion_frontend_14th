@@ -1,0 +1,124 @@
+.menu_wrap{
+    padding-top: 10px;
+    padding-left: 20px;
+    a{
+        width: 24px;
+        height: 24px;
+    }
+    .menu_tab{
+        display: flex;
+        justify-content: space-between;
+
+        
+        padding-top: 10px;
+        padding-right: 40px;
+        position: relative;
+
+        border-bottom: 1px solid #888888;
+        width: 270px;
+        p{
+            padding-left: 10px;
+            margin-bottom: 10px;
+
+            font-weight: 300;
+            letter-spacing: 4px;
+
+            color:#888888
+        }
+    }
+    .active {
+        position: relative;
+        color:#333333;
+    }
+
+    .active::before {
+        content: "";
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        width: 95px;
+        height: 1px;
+
+        margin-left: 3px;
+
+        background: #DD8560;
+
+        bottom: -17px;
+        margin-bottom: 6px;
+    }
+
+    .active::after {
+        content: "";
+
+        position: absolute;
+
+        width: 8px;
+        height: 8px;
+
+        margin-left: 3px;
+        background: #DD8560;
+
+        left: 50%;
+
+        transform: translateX(-50%) rotate(45deg);
+
+        bottom: -21px;
+        margin-bottom: 6px;
+    }
+
+    .menu_category{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+        color: #333333;
+
+        img{
+            width: 24px;
+            height: auto;
+
+            padding-right: 40px;
+        }
+        .menu_item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            padding: 18px 0;
+
+            span{
+                font-size: 18px;
+                font-weight: 400;
+                color: #333;
+
+                padding-left: 10px;
+            }
+        }
+
+    }
+    .call,
+    .location{
+        display: flex;
+
+        padding-left: 10px;
+        color: #555555;
+
+        img{
+            padding-right:10px;
+        }
+    }
+    .bar{
+        display: block;
+        margin: 0 auto;
+
+        padding-top: 15px;
+    }
+    .menu_sns{
+        display: flex;
+        font-size: 24px;
+        justify-content: space-around;
+
+        padding: 40px 100px;
+    }
+}

@@ -1,0 +1,21 @@
+.header{
+    width: 375px;
+    height: 60px;
+    background-color: white;
+    margin: auto;
+    box-sizing: border-box;
+
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+
+    position: relative;
+    padding: 0 16px;
+    
+    .logo{
+        margin-left: 50%;
+    }
+    .nav_search{
+        margin-left: 200%;
+    }
+}
